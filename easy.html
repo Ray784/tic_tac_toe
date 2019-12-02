@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>Tic_Tac_Toe</title>
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/custom.css">
+	</head>
+	<body class="black">
+
+		<!--Navigation Bar-->
+		<nav class="navbar navbar-light" class="vav">
+		  <span><a class="btn"><i class="material-icons" onclick="window.location = 'index.html'">arrow_back</i></a></span>
+		  <span><a class="btn"><i class="material-icons">settings</i></a></span>
+		</nav>
+
+		<!--The Board-->
+		<div class="container">
+			<div class="center header col-md-10 col-sm-10 col-xs-10">80% people can beat this.<br>Can You?</div>
+			<div class="grid-container center">
+			  <div class="grid-item"><button class="btn inp" id="0b0" onclick="user(this.id)"></button></div>
+			  <div class="grid-item"><button class="btn inp" id="0b1" onclick="user(this.id)"></button></div>
+			  <div class="grid-item"><button class="btn inp" id="0b2" onclick="user(this.id)"></button></div>  
+			  <div class="grid-item"><button class="btn inp" id="1b0" onclick="user(this.id)"></button></div>
+			  <div class="grid-item"><button class="btn inp" id="1b1" onclick="user(this.id)"></button></div>
+			  <div class="grid-item"><button class="btn inp" id="1b2" onclick="user(this.id)"></button></div>  
+			  <div class="grid-item"><button class="btn inp" id="2b0" onclick="user(this.id)"></button></div>
+			  <div class="grid-item"><button class="btn inp" id="2b1" onclick="user(this.id)"></button></div>
+			  <div class="grid-item"><button class="btn inp" id="2b2" onclick="user(this.id)"></button></div>  
+			</div>
+		</div>
+
+
+		<!-- Game End Popup -->
+		<div class="modal fade" id="GameEnd" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="pop-title">dummy</h5>
+		      </div>
+
+		      <div class="modal-body" id="pop-message">
+		        dummy
+		      </div>
+
+		      <div class="modal-footer">
+		        <a onclick="location.reload()" style="color: white" class="btn btn-primary">New Game</a>
+		        <a href="index.html" class="btn btn-danger">Exit</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!--Settings popup-->
+		<div class="modal fade" id="Settings" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="pop-title">Settings</h5>
+		      </div>
+
+		      <div class="modal-body" id="pop-message">
+		        
+		      </div>
+
+		      <div class="modal-footer">
+		        <a href="index.html" class="btn btn-danger">Back</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+		<script type="text/javascript" src="./js/easy.js"></script>
+		<script type="text/javascript" src="./js/jquery-3.2.1.slim.min.js"></script>
+		<script type="text/javascript" src="./js/popper.min.js"></script>
+		<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	</body>
+</html>
