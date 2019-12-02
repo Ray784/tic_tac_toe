@@ -73,7 +73,7 @@ nav{
 
 .header{
 	font-family: 'Poppins';
-	text-align: center; 
+	text-align: center;
 	margin-top:80px;
 	margin-bottom: 20px;
 	font-size: 25px;
@@ -89,7 +89,6 @@ nav{
 .grid-item {
 	width: 110px;
 	box-shadow: 0 4px 8px 0 rgba(144, 202, 249, 0.2), 0 6px 20px 0 rgba(144, 202, 249, 0.19);
-  	/*border: 1px solid #ffffff;*/
   	font-size: 30px;
   	margin: 5px;
   	text-align: center;
@@ -110,6 +109,7 @@ nav{
 	.header{
 		margin-top: 50px;
 	}
+
 	.grid-container {
 	display: grid;
 	width: 250px;

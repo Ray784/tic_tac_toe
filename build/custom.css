@@ -1,10 +1,15 @@
 .black{
-	background-color: black;
+	background-color: white;
 }
 
 @font-face {
   font-family: 'Material Icons';
   src: url("./MaterialIcons-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Big Space';
+  src: url("./Big Space.ttf");
 }
 
 @font-face {
@@ -17,10 +22,6 @@
   src: url("./Poppins-Medium.ttf");
 }
 
-nav{
-	font-family: 'Poppins'; 
-}
-
 .material-icons {
 	font-family: 'Material Icons';
 	font-weight: normal;
@@ -31,7 +32,8 @@ nav{
 }
 
 nav{
-	background-color: #17A2B8; 
+	font-family: 'Poppins'; 
+	background-color: #90CAF9; 
 	color: white;
 }
 .center{
@@ -48,24 +50,21 @@ nav{
 	font-weight: normal;
 	font-style: normal;
 	font-size: 20px;
+	border: 0px;
+	background-color: #90CAF9;
+	transition: background 1.5s;
+	box-shadow: 0 4px 8px 0 rgba(132, 177, 255, 0.2), 0 6px 20px 0 rgba(144, 202, 249, 0.19);
 	cursor: pointer;
 	color: white;
 }
 
 .robo{
-	font-family: 'Robotic';
+	font-family: 'Big Space';
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #90CAF9, 0 0 40px #90CAF9, 0 0 50px #90CAF9, 0 0 60px #90CAF9, 0 0 70px #90CAF9;
+	color: #2b6bd9;
 	font-weight: normal;
 	font-style: normal;
-	font-size: 45px;
-}
-
-@media only screen and (min-width: 384px) {
-	.robo{
-		font-family: 'Robotic';
-		font-weight: normal;
-		font-style: normal;
-		font-size: 53px;
-	}
+	font-size: 70px;
 }
 
 .mode-btn:hover{
@@ -74,27 +73,24 @@ nav{
 
 .header{
 	font-family: 'Poppins';
-	color: white;
-	text-align: center; 
-	background-color: black; 
-	margin-top:50px;
+	text-align: center;
+	margin-top:80px;
 	margin-bottom: 20px;
 	font-size: 25px;
 }
 
 .grid-container {
 	display: grid;
-	width: 330px;
+	width: 350px;
 	grid-template-columns: auto auto auto;
 	border-radius: 5px;
 }
 
 .grid-item {
-	width: 112px;
-  	background-color: #000000;
-  	border: 1px solid #ffffff;
+	width: 110px;
+	box-shadow: 0 4px 8px 0 rgba(144, 202, 249, 0.2), 0 6px 20px 0 rgba(144, 202, 249, 0.19);
   	font-size: 30px;
-  	padding: 5px;
+  	margin: 5px;
   	text-align: center;
 }
 
@@ -102,15 +98,46 @@ nav{
 	width: 100px;
 	height: 100px;
 	cursor: pointer;
-	background-color: gray;
+	background-color: white;
+	border-radius: 0px;
 	font-family: "Poppins";
 	font-weight: bold;
 	font-size: 50px;
 }
 
-.inp:hover{
-	background-color: rgba(255, 255, 255, 0.6);
+@media only screen and (max-width: 400px) {
+	.header{
+		margin-top: 50px;
+	}
+
+	.grid-container {
+	display: grid;
+	width: 250px;
+	grid-template-columns: auto auto auto;
+	border-radius: 5px;
+	}
+
+	.grid-item {
+		width: 75px;
+		box-shadow: 0 4px 8px 0 rgba(144, 202, 249, 0.2), 0 6px 20px 0 rgba(144, 202, 249, 0.19);
+	  	/*border: 1px solid #ffffff;*/
+	  	font-size: 30px;
+	  	margin: 5px;
+	  	text-align: center;
+	}
+
+	.inp{
+		width: 70px;
+		height: 70px;
+		cursor: pointer;
+		background-color: white;
+		border-radius: 0px;
+		font-family: "Poppins";
+		font-weight: bold;
+		font-size: 30px;
+	}
 }
+
 
 
 

@@ -126,8 +126,6 @@ function callPopup(title,message){
 function setUpButton(button,text){
 	button.innerHTML = text;
 	button.disabled = true;
-	button.style.backgroundColor = "#000000";
-	button.style.color = "#ffffff";
 }
 
 function user(id){

@@ -3,14 +3,13 @@
 		<title>Tic_Tac_Toe</title>
 		<link rel="stylesheet" type="text/css" href="./bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="./custom.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 	</head>
 	<body class="black">
 
 		<!--Navigation Bar-->
 		<nav class="navbar navbar-light" class="vav">
 		  <span><a class="btn"><i class="material-icons" onclick="window.location = 'index.html'">arrow_back</i></a></span>
-		  <span><a class="btn" data-toggle="modal" data-target="#Settings"><i class="material-icons">settings</i></a></span>
+		  <span><a class="btn"><i class="material-icons">settings</i></a></span>
 		</nav>
 
 		<!--The Board-->
@@ -44,7 +43,7 @@
 
 		      <div class="modal-footer">
 		        <a onclick="location.reload()" style="color: white" class="btn btn-primary">New Game</a>
-		        <a href="index.html" class="btn btn-danger">Quit</a>
+		        <a href="index.html" class="btn btn-danger">Exit</a>
 		      </div>
 		    </div>
 		  </div>
@@ -55,24 +54,15 @@
 		  <div class="modal-dialog modal-dialog-centered" role="document">
 		    <div class="modal-content">
 		      <div class="modal-header">
-		        <h5 class="modal-title center" id="pop-title">Settings</h5>
+		        <h5 class="modal-title" id="pop-title">Settings</h5>
 		      </div>
 
-		      <div class="modal-body center" id="pop-message">
-		        <div class="custom-control custom-switch">
-					<input type="checkbox" class="custom-control-input" id="Sound">
-					<label class="custom-control-label" for="customSwitch1">Sound</label>
-				</div>
-				<div class="custom-control custom-switch">
-					<input type="checkbox" class="custom-control-input" id="music">
-					<label class="custom-control-label" for="customSwitch1">Music</label>
-				</div>
+		      <div class="modal-body" id="pop-message">
+		        
 		      </div>
 
-		      <div class="modal-footer center">
-		      	<a onclick="location.reload()" style="color: white" class="btn btn-primary">Restart</a>
-		      	<a data-toggle="modal" data-target="#Settings" style="color: white;" class="btn btn-success">Resume</a>
-		        <a href="index.html" class="btn btn-danger">Quit</a>
+		      <div class="modal-footer">
+		        <a href="index.html" class="btn btn-danger">Back</a>
 		      </div>
 		    </div>
 		  </div>
