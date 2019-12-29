@@ -111,10 +111,10 @@ nav{
 	}
 
 	.grid-container {
-	display: grid;
-	width: 250px;
-	grid-template-columns: auto auto auto;
-	border-radius: 5px;
+		display: grid;
+		width: 300px;
+		grid-template-columns: auto auto auto;
+		border-radius: 5px;
 	}
 
 	.grid-item {

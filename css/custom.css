@@ -74,20 +74,20 @@ nav{
 .header{
 	font-family: 'Poppins';
 	text-align: center;
-	margin-top:80px;
+	margin-top:60px;
 	margin-bottom: 20px;
 	font-size: 25px;
 }
 
 .grid-container {
 	display: grid;
-	width: 350px;
+	width: 500px;
 	grid-template-columns: auto auto auto;
 	border-radius: 5px;
 }
 
 .grid-item {
-	width: 110px;
+	width: 150px;
 	box-shadow: 0 4px 8px 0 rgba(144, 202, 249, 0.2), 0 6px 20px 0 rgba(144, 202, 249, 0.19);
   	font-size: 30px;
   	margin: 5px;
@@ -95,8 +95,8 @@ nav{
 }
 
 .inp{
-	width: 100px;
-	height: 100px;
+	width: 140px;
+	height: 140px;
 	cursor: pointer;
 	background-color: white;
 	border-radius: 0px;
@@ -105,40 +105,47 @@ nav{
 	font-size: 50px;
 }
 
-@media only screen and (max-width: 400px) {
+@media (min-width: 768px){
 	.header{
-		margin-top: 50px;
+		font-family: 'Poppins';
+		text-align: center;
+		margin-top: 200px;
+		margin-bottom: 20px;
+		font-size: 40px;
 	}
-
-	.grid-container {
-	display: grid;
-	width: 250px;
-	grid-template-columns: auto auto auto;
-	border-radius: 5px;
+	nav{
+		height: 150px;
+		font-size: 100px;
 	}
-
-	.grid-item {
-		width: 75px;
-		box-shadow: 0 4px 8px 0 rgba(144, 202, 249, 0.2), 0 6px 20px 0 rgba(144, 202, 249, 0.19);
-	  	/*border: 1px solid #ffffff;*/
-	  	font-size: 30px;
-	  	margin: 5px;
-	  	text-align: center;
+	nav span a i{
+		font-size: 100px;
 	}
-
 	.inp{
-		width: 70px;
-		height: 70px;
+		width: 220px;
+		height: 220px;
 		cursor: pointer;
 		background-color: white;
 		border-radius: 0px;
 		font-family: "Poppins";
 		font-weight: bold;
-		font-size: 30px;
+		font-size: 50px;
+	}
+
+	.grid-container {
+		display: grid;
+		width: 690px;
+		grid-template-columns: auto auto auto;
+		border-radius: 5px;
+	}
+
+	.grid-item {
+		width: 230px;
+		box-shadow: 0 4px 8px 0 rgba(144, 202, 249, 0.2), 0 6px 20px 0 rgba(144, 202, 249, 0.19);
+	  	font-size: 30px;
+	  	margin: 5px;
+	  	text-align: center;
 	}
 }
-
-
 
 
 
