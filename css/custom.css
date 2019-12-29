@@ -113,13 +113,6 @@ nav{
 		margin-bottom: 20px;
 		font-size: 40px;
 	}
-	nav{
-		height: 150px;
-		font-size: 100px;
-	}
-	nav span a i{
-		font-size: 100px;
-	}
 	.inp{
 		width: 220px;
 		height: 220px;
@@ -128,7 +121,7 @@ nav{
 		border-radius: 0px;
 		font-family: "Poppins";
 		font-weight: bold;
-		font-size: 50px;
+		font-size: 100px;
 	}
 
 	.grid-container {
