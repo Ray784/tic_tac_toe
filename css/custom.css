@@ -113,6 +113,15 @@ nav{
 		margin-bottom: 20px;
 		font-size: 40px;
 	}
+
+	nav{
+		height: 200px;
+	}
+
+	.material-icons{
+		font-size: 70px;
+	}
+
 	.inp{
 		width: 220px;
 		height: 220px;
@@ -126,7 +135,7 @@ nav{
 
 	.grid-container {
 		display: grid;
-		width: 690px;
+		width: 700px;
 		grid-template-columns: auto auto auto;
 		border-radius: 5px;
 	}
